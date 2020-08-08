@@ -1,0 +1,1 @@
+<view class="userMsg _div"><view class="userinfo _div"><image class="userinfo-avatar" src="{{yonghuwx.avatarUrl}}"></image><view class="userinfo-name">{{yonghuwx.nickName}}</view><view class="userinfo-phone">{{phone}}</view></view><view class="usermotto _div"><view class="user-motto _div">{{motto}}</view></view></view>

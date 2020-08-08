@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/*蓝色背景*/
+/*导航加蓝色下划线以及改颜色样式*/
+.blueActive {
+  border-bottom: 2px solid #0071ce;
+  color: #0071ce;
+}
+.orderList {
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+.orderList .navBar {
+  background-color: #fff;
+  padding: 15px 15px 0 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  color: #676767;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.orderList .navBar .navBarlist {
+  padding-bottom: 15px;
+}
+.orderList .orderDetail {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10px 0px;
+}
+.orderList .orderDetail .topTitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 0 15px;
+}
+.orderList .orderDetail .topTitle .leftShopName {
+  font-weight: bold;
+  font-size: 17px;
+}
+.orderList .orderDetail .topTitle .rightStatus {
+  color: #0071ce;
+}
+.orderList .orderDetail .orderMessage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 10px;
+  margin: 0 15px;
+  margin-top: 10px;
+  background-color: #f8f8f8;
+}
+.orderList .orderDetail .orderMessage .leftBlock {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.orderList .orderDetail .orderMessage .leftBlock .orderPic {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+}
+.orderList .orderDetail .orderMessage .leftBlock .orderName {
+  margin-left: 10px;
+}
+.orderList .orderDetail .orderMessage .rightBlock .topPrice {
+  font-weight: bold;
+}
+.orderList .orderDetail .orderMessage .rightBlock .bottomQuantity {
+  margin-top: 10px;
+  color: #5d5d5d;
+  text-align: right;
+}
+.orderList .orderDetail .orderAllPrice {
+  margin-top: 10px;
+  padding: 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.orderList .orderDetail .orderAllPrice .totalTitle {
+  margin-right: 8px;
+  font-size: 14px;
+}
+.orderList .orderDetail .orderAllPrice .totalPrice {
+  color: #ec8132;
+  font-weight: bold;
+  font-size: 17px;
+}
+.orderList .orderDetail .bottomButton {
+  margin-top: 10px;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.orderList .orderDetail .bottomButton .cancelButton {
+  margin-right: 10px;
+  padding: 3px 20px;
+  font-size: 15px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  border: 1px solid #cecece;
+}
+.orderList .orderDetail .bottomButton .continuePay {
+  color: #fff;
+  background-color: #ec8131;
+  padding: 3px 20px;
+  font-size: 15px;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+}
+.orderList .noOrder {
+  text-align: center;
+}
+.orderList .noOrder .noOrderBlock {
+  display: inline-block;
+}
+.orderList .noOrder .noOrderBlock .title {
+  margin-top: 150px;
+  color: #757575;
+}
+.orderList .noOrder .noOrderBlock .button {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #ec8131;
+  -webkit-border-radius: 30px;
+          border-radius: 30px;
+  color: #ec8131;
+  font-size: 16px;
+  padding: 3px 25px;
+}
+

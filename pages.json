@@ -1,0 +1,187 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/sort/sort",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		
+		{
+			"path": "pages/user/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/afterSale/afterSale",
+			"style": {
+				"navigationBarTitleText": "售后",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/userMsg/userMsg",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/coupon/couponList/couponList",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/address/address",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/address/editAddress/editAddress",
+			"style": {
+				"navigationBarTitleText": "新增收货地址",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/address/chooseAddress/chooseAddress",
+			"style": {
+				"navigationBarTitleText": "选择地址",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/address/cityList/cityList",
+			"style": {
+				"navigationBarTitleText": "选择城市",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/user/order/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/confirmOrder/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/shopDetail/shopDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "商品搜索",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		},
+		{
+			"path": "pages/search/searchResult/searchResult",
+			"style": {
+				"navigationBarTitleText": "全部商品",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#0071ce"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"iconPath": "static/tab-cate.png",
+				"selectedIconPath": "static/tab-cate-current.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tab-cart.png",
+				"selectedIconPath": "static/tab-cart-current.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	}
+}
